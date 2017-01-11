@@ -20,3 +20,5 @@ testem.log
 .code
 
 .idea
+
+.DS_Store
