@@ -11,10 +11,10 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li>
-          {{#link-to 'index' class='nav-item nav-link'}}Home{{/link-to}}
-        </li>
         {{#if session.isAuthenticated}}
+          <li>
+            {{#link-to 'index' class='nav-item nav-link'}}Projects{{/link-to}}
+          </li>
           <li>
             {{#link-to 'health' class='nav-item nav-link'}}Health{{/link-to}}
           </li>
